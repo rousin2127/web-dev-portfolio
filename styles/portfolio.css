@@ -7,8 +7,14 @@
     "wdth" 100;
 }
 /* shared style */
+.secondary-bg{
+    background-color: #FFF8F3;
+}
 .text-primary{
     color: #FD6E0A;
+}
+.dark-1{
+    color:#181818
 }
 .dark-2{
     color: #474747;
@@ -85,4 +91,32 @@ nav  ul li  {
 }
 .banner-profile-pic{
     width: 580px;
+}
+
+/* main style */
+main{
+    max-width: 1040px;
+    margin: 0 auto;
+}
+/* about style */
+.about{
+    border-radius: 10px;
+    margin-top:130px ;
+    padding:130px 150px;
+    text-align: center;
+    /* border:1px solid black; */
+    
+
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.item-description{
+    font-weight: bold;
+    font-size: 20;
+}
+.item-title{
+    font-size: 20;
+    
 }
