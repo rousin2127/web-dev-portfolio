@@ -98,7 +98,7 @@ nav  ul li  {
 
 /* main style */
 main{
-    max-width: 1040px;
+    max-width: 1140px;
     margin: 0 auto;
 }
 main section{
@@ -128,7 +128,7 @@ main section{
     
 }
 
-/* skills section styl */
+/* skills section style */
 .skills-container{
     display: flex;
     gap: 24px;
@@ -140,3 +140,63 @@ main section{
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
     border-radius: 5px;
 }
+/* resume style */
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+.section-title{
+    margin-bottom: 110px;
+}
+.experience-title{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.experience-sub-title{
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+.resume hr{
+    margin-top: 20px;
+}
+.resume-download-btn{
+    margin-top: 50px;
+    
+}
+footer{
+    
+    /* align-items: center; */
+    justify-content: center;
+    padding: 130px 230px;
+    display: flex;
+    gap:115px;
+}
+.section-column{
+    width: 50%;
+}
+footer input[type="name"], footer input[type="email"]{
+     height: 60px;
+     border-radius: 5px;
+     background-color: white;
+     display: block;
+     width: 460px;
+     padding-left: 20px;
+     margin-bottom: 12px;
+     border: none;
+}
+
+ footer input[type="submit"]{
+    display: block;
+
+ }
+ footer textarea{
+     height: 60px;
+     border-radius: 5px;
+     background-color: white;
+     display: block;
+     width: 460px;
+     padding-left:20px;
+     margin-bottom: 24px;
+     margin-top: 24px;
+     border: none;
+ }
